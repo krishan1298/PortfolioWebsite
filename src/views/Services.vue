@@ -22,13 +22,12 @@ export default {
 .management-services{
   background-color: #f4f6f8;
   margin: 1% auto;
-  max-width: 900px;
+  width: 900px;
   padding: 20px;
   border-radius: 10px;
   line-height: 1.6;
   
 }
-
 
 </style>
   

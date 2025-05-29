@@ -5,6 +5,8 @@
       <RouterLink to="/mission">Mission/Vision</RouterLink>
       <RouterLink to="/values">Core Values </RouterLink>
       <RouterLink to="/clients">Clients</RouterLink>
+      <RouterLink to="/founder">Meet Our Founder</RouterLink>
+      <RouterLink to="/careers">Careers</RouterLink>
     </nav>
   </template>
   

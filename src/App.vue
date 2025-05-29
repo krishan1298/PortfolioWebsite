@@ -6,9 +6,8 @@
       <footer class="contact-footer">
       <p><strong>Contact Us</strong></p>
       <p><strong>Address:</strong> 4546 Jimmy Carter Blvd, Ste 107, Norcross, GA, 30093</p>
-      <p><strong>Phone:</strong> <a href="tel:+1-xxx-xxx-xxxx">[Insert Phone Number]</a></p>
-      <p><strong>Email:</strong> <a href="mailto:[Insert Email Address]">[Insert Email Address]</a></p>
-      <p><strong>Website:</strong> <a href="[Insert Website URL]" target="_blank" rel="noopener noreferrer">[Insert Website URL]</a></p>
+      <p>Contact Us: <a href="tel:+16786656252"><strong>678-665-6252</strong></a></p>
+      <p>Email Us: <a href="mailto:soniglobalinc@gmail.com"><strong>soniglobalinc@gmail.com</strong> </a></p>
     </footer>
   </div>
 </template>
