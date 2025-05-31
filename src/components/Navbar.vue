@@ -1,6 +1,6 @@
 <template>
     <nav class="nav">
-      <RouterLink to="/PortfolioWebsite/about-us">About Us</RouterLink>
+      <RouterLink to="/PortfolioWebsite/">About Us</RouterLink>
       <RouterLink to="/PortfolioWebsite/services">Services</RouterLink>
       <RouterLink to="/PortfolioWebsite/mission">Mission/Vision</RouterLink>
       <RouterLink to="/PortfolioWebsite/values">Core Values </RouterLink>
