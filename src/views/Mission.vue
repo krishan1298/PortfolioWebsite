@@ -1,6 +1,6 @@
 <template>
             <div class="image-left-layout">
-    <img src="@/assets/Mission Photo.png" alt="Company Logo" class="left-image" />
+    <img src="@/assets/MissionPic.png" alt="Company Logo" class="left-image" />
         <section class="mission-vision">
       <h2>Mission / Vision</h2>
       <div class="mission">

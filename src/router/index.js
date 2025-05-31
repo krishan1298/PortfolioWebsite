@@ -7,7 +7,7 @@ import Clients from '../views/Clients.vue'
 import Founder from '../views/Founder.vue'
 import Careers from '../views/Careers.vue'
 const routes = [
-  { path: '/', component: About },
+  { path: '/about-us', component: About },
   { path: '/services', component: Services },
 { path: '/mission', component: Mission },
 { path:'/values', component: CoreValues},

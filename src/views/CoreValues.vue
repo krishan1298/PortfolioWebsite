@@ -1,4 +1,6 @@
 <template>
+            <div class="image-left-layout">
+    <img src="@/assets/CoreValuesPic.png" alt="Company Logo" class="left-image" />
         <section class="core-values">
       <h2>Core Values</h2>
       <ul>
@@ -9,6 +11,7 @@
         <li>Long-Term Partnership</li>
       </ul>
     </section>
+    </div>
 </template>
 
 <script>
@@ -26,5 +29,16 @@ export default {
   border-radius: 10px;
   line-height: 1.6;
 }
+.image-left-layout {
+  display: flex;
+  align-items: center; /* Vertically align image and text */
+  gap: 10px;
+  padding: 20px;
+}
 
+.left-image {
+  width: 1000px;
+  height: auto;
+  border-radius: 8px; /* Optional: rounded corners */
+}
 </style>

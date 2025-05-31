@@ -1,6 +1,13 @@
 <template>
-          <div class="image-left-layout">
-    <img src="@/assets/Careers Photo.png" alt="Company Logo" class="left-image" />
+  <div class="about-layout">
+    <div class="logo-container">
+      <div class="abbrv_size">SG</div>
+      <div class="divider"></div>
+      <div class="text-block">
+        <h1 class="brand-name">SONI</h1>
+        <div class="subtitle">GLOBAL Inc.</div>
+      </div>
+    </div>
         <section class="careers">
       <h2>Careers</h2>
         <h3>We’re always looking for passionate, talented individuals to join our team. Explore opportunities such as:</h3>
@@ -49,5 +56,54 @@ export default {
   width: 1000px;
   height: auto;
   border-radius: 8px; /* Optional: rounded corners */
+}
+.about-layout {
+  display: flex;
+  padding: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Vertically center the whole logo block */
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+}
+
+/* Horizontally layout SG | Divider | SONI GLOBAL */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.abbrv_size {
+  font-size: 80px;
+  letter-spacing: 1px;
+  color: #ADD8E6;
+  border: 1px solid white;
+  padding: 10px 15px;
+}
+
+.divider {
+  width: 1px;
+  height: 80px;
+  background-color: white;
+}
+
+.text-block {
+  text-align: left;
+}
+
+.brand-name {
+  margin: 0;
+  font-size: 80px;
+  color: #ADD8E6;
+}
+
+.subtitle {
+  color: #ADD8E6;
+  font-size: 80px;
 }
 </style>
