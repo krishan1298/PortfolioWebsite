@@ -1,12 +1,12 @@
 <template>
     <nav class="nav">
-      <RouterLink to="/">About Us</RouterLink>
-      <RouterLink to="/services">Services</RouterLink>
-      <RouterLink to="/mission">Mission/Vision</RouterLink>
-      <RouterLink to="/values">Core Values </RouterLink>
-      <RouterLink to="/clients">Clients</RouterLink>
-      <RouterLink to="/founder">Meet Our Founder</RouterLink>
-      <RouterLink to="/careers">Careers</RouterLink>
+      <RouterLink to="/PortfolioWebsite/">About Us</RouterLink>
+      <RouterLink to="/PortfolioWebsite/services">Services</RouterLink>
+      <RouterLink to="/PortfolioWebsite/mission">Mission/Vision</RouterLink>
+      <RouterLink to="/PortfolioWebsite/values">Core Values </RouterLink>
+      <RouterLink to="/PortfolioWebsite/clients">Clients</RouterLink>
+      <RouterLink to="/PortfolioWebsite/founder">Meet Our Founder</RouterLink>
+      <RouterLink to="/PortfolioWebsite/careers">Careers</RouterLink>
     </nav>
   </template>
   
