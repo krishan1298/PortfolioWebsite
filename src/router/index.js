@@ -6,18 +6,20 @@ import CoreValues from '../views/CoreValues.vue'
 import Clients from '../views/Clients.vue'
 import Founder from '../views/Founder.vue'
 import Careers from '../views/Careers.vue'
+
 const routes = [
-  { path: '/PortfolioWebsite/', component: About },
-  { path: '/PortfolioWebsite/services', component: Services },
-{ path: '/PortfolioWebsite/mission', component: Mission },
-{ path:'/PortfolioWebsite/values', component: CoreValues},
-{ path:'/PortfolioWebsite/clients', component: Clients},
-{ path:'/PortfolioWebsite/founder', component: Founder},
-{ path:'/PortfolioWebsite/careers', component: Careers}
+  { path: '/', component: About },
+  { path: '/services', component: Services },
+  { path: '/mission', component: Mission },
+  { path: '/values', component: CoreValues },
+  { path: '/clients', component: Clients },
+  { path: '/founder', component: Founder },
+  { path: '/careers', component: Careers }
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  // Tell Vue Router your app is hosted under /PortfolioWebsite
+  history: createWebHistory('/PortfolioWebsite/'),
   routes
 })
 
