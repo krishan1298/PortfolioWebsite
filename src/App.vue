@@ -5,7 +5,7 @@
     <router-view />
       <footer class="contact-footer">
       <p><strong>Contact Us</strong></p>
-      <p><strong>Address:</strong> 4546 Jimmy Carter Blvd, Ste 107, Norcross, GA, 30093</p>
+      <p><strong>Address:</strong> 4550 Jimmy Carter Blvd, Norcross, GA, 30093, USA</p>
       <p>Contact Us: <a href="tel:+16786656252"><strong>678-665-6252</strong></a></p>
       <p>Email Us: <a href="mailto:soniglobalinc@gmail.com"><strong>soniglobalinc@gmail.com</strong> </a></p>
     </footer>
